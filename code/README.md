@@ -13,4 +13,4 @@ Set parameters in the params.json file, as follows:
 - temporal_filter_hp: null or float. Cutoff frequency for high-pass filtering (Hz).
 - spatial_filter_fwhm: null or float. FWHM of gaussian spatial filtering for fMRI data.
 
-`run python main.py params.json`
+run `python main.py params.json`
