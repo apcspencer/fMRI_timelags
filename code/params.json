@@ -1,0 +1,13 @@
+{
+  "data_path" : "/sub-01/bold_breath-hold_run1/preprocessed/BOLD.nii.gz",
+  "mask_path" : "/sub-01/bold_breath-hold_run1/preprocessed/bold_brain_mask.nii.gz",
+  "tseries_path" :  "/sub-01/bold_bh_run1_petco2_50Hz.txt",
+  "tseries_fs" : 50,
+  "convolve": "hrf",
+  "tseries_padding" : "none",
+  "lags" : [-30,0,0.5],
+  "FFT" : 0,
+  "detrend_polynomial" : 3,
+  "temporal_filter_hp" : 0.01,
+  "spatial_filter_fwhm" : 4
+}
