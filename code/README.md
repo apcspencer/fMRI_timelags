@@ -1,3 +1,4 @@
+# Cross-correlations
 
 Set parameters in the params.json file, as follows:
 - data_path: path to fMRI data
